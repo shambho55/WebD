@@ -1,0 +1,45 @@
+#clockContainer{
+    position: relative;
+    border:2px solid red;
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    background: url(clock-without-hands.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.5%;
+    height: 25%;
+    top: 25.5%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+}
+
+#minute{
+
+    width: 1.5%;
+    height: 30%;
+    top: 19.5%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+}
+
+#second{
+
+    width: 0.5%;
+    height: 32%;
+    top: 17.5%;
+    left: 50.2%;
+    opacity: 0.8;
+    /* display:none; */
+}

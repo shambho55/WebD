@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Borel&family=Hind&family=Lato&family=Pacifico&family=Poppins&family=Potta+One&family=Roboto&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Barriecito",cursive;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.btn{
+    background-color: indianred;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem; 
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+}

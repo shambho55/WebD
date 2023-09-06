@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Borel&family=Hind&family=Lato&family=Pacifico&family=Poppins&family=Potta+One&family=Roboto&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: url("../bg.jpg");
+    min-height:100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    background:linear-gradient(rgb(137, 231, 137),rgb(247, 247, 84));
+    width:90vmin;
+    height:92vmin;
+    border:2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+
+}
+
+#scoreBox{
+    position: absolute;
+    top:9px;
+    right:200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Barriecito', cursive;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top:59px;
+    right:180px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Barriecito', cursive;
+}
+
+.head{
+    background:linear-gradient(white,red);
+    border: .25vmin solid indigo;
+    border-radius: 12px;
+}
+
+.snake{
+    background-color: darkgreen;
+    border: .25vmin solid wheat;
+    border-radius: 12px;
+}
+
+.food{
+    background:linear-gradient(yellow,purple);
+    border: .25vmin solid black;
+    border-radius: 12px;
+}

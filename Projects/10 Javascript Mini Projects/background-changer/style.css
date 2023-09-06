@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Borel&family=Hind&family=Lato&family=Pacifico&family=Poppins&family=Potta+One&family=Roboto&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Barriecito",cursive;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button{
+    background-color: indigo;
+    color: #fff;
+    padding: 1rem;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: none;
+    transition: transform 0.1s linear;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    box-shadow: 0;
+    transform: translate(2px,2px);
+}
