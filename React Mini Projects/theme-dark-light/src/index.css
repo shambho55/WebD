@@ -1,0 +1,17 @@
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+/* 
+body {
+  background-color: rgb(255, 184, 255);
+} */
+
+.btn{
+  border: 2px solid black !important;
+  border-radius: 5px;
+  width:300px !important;
+}

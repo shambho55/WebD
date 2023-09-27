@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.comment{
+  justify-content: center;
+}
+
+.share{
+  /* margin-left: 203px; */
+  display: inline-block;
+  justify-content: space-around;
+}
